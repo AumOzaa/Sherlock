@@ -20,7 +20,7 @@ def main():
     args = parser.parse_args()
 
     if not os.path.exists(args.scenario):
-        print(f"❌ Error: Scenario file not found at '{args.scenario}'")
+        print(f"Error: Scenario file not found at '{args.scenario}'")
         return
 
     # Initialize the engine and start processing the live stream
