@@ -18,3 +18,29 @@ This engine ingests continuous streaming telemetry (audio pulses, webcam state, 
 The pipeline implements a decoupled Event-Driven Streaming Architecture. The processing logic is completely sandboxed from future event context, evaluating state adjustments chronologically.
 
 ![System Architecture](./assests/architecture.png)
+
+## Video Link:
+[Demo](https://drive.google.com/file/d/1o0zt-2Jkhl6yXwv6hq_rgsfxRI13lyiZ/view?usp=sharing)
+
+## Video Walk-through:
+![Video](https://drive.google.com/file/d/1o0zt-2Jkhl6yXwv6hq_rgsfxRI13lyiZ/view)
+
+---
+## Running the project
+Clone the project in your system
+```bash
+git clone https://github.com/AumOzaa/Sherlock.git
+cd Sherlock
+```
+
+Virtual Env and Activating
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Running the actual project
+```bash
+python main.py --scenario data/scenario_extended.json --speed 50.0
+```
