@@ -1,0 +1,25 @@
+{
+  "external_metadata": {
+    "candidate_name": "Aum Oza",
+    "interviewers": ["Alice Smith", "bobJones"]
+  },
+  "timeline_events": [
+    { "timestamp": "00:01", "type": "join", "participant_id": "p1", "display_name": "Alice Smith" },
+    { "timestamp": "00:02", "type": "join", "participant_id": "p2", "display_name": "Bob Jones" },
+    { "timestamp": "00:03", "type": "join", "participant_id": "p3", "display_name": "MacBook Pro" },
+    { "timestamp": "00:05", "type": "webcam_change", "participant_id": "p3", "status": "ON" },
+    { 
+      "timestamp": "00:10", 
+      "type": "transcript_chunk", 
+      "participant_id": "p1", 
+      "text": "Hi everyone, welcome. Thanks for joining us today for the software engineering interview." 
+    },
+    { 
+      "timestamp": "00:15", 
+      "type": "transcript_chunk", 
+      "participant_id": "p3", 
+      "text": "Hi Alice, thank you for having me. Yes, I am excited to talk about my experience with machine learning and building agentic systems." 
+    },
+    { "timestamp": "00:20", "type": "audio_activity", "participant_id": "p3", "duration_seconds": 12 }
+  ]
+}

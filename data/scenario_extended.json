@@ -1,0 +1,47 @@
+{
+  "external_metadata": {
+    "candidate_name": "Aum Oza",
+    "interviewers": ["Alice Smith", "BBhsones"]
+  },
+  "timeline_events": [
+    { "timestamp": "00:01", "type": "join", "participant_id": "p1", "display_name": "Alice Smith" },
+    { "timestamp": "00:02", "type": "join", "participant_id": "p2", "display_name": "Bob Jones" },
+    { "timestamp": "00:03", "type": "join", "participant_id": "p3", "display_name": "MacBook Pro" },
+    { "timestamp": "00:05", "type": "webcam_change", "participant_id": "p3", "status": "ON" },
+    
+    { 
+      "timestamp": "01:10", 
+      "type": "transcript_chunk", 
+      "participant_id": "p1", 
+      "text": "Hi everyone, welcome. Thanks for joining us today for the software engineering interview." 
+    },
+    { 
+      "timestamp": "02:15", 
+      "type": "transcript_chunk", 
+      "participant_id": "p3", 
+      "text": "Hi Alice, thank you for having me. Yes, I am excited to talk about my experience with machine learning and building agentic systems." 
+    },
+    { "timestamp": "02:20", "type": "audio_activity", "participant_id": "p3", "duration_seconds": 30 },
+    
+    { "timestamp": "04:45", "type": "audio_activity", "participant_id": "p1", "duration_seconds": 15 },
+    { 
+      "timestamp": "05:00", 
+      "type": "transcript_chunk", 
+      "participant_id": "p3", 
+      "text": "To scale our RAG pipeline, we implemented an asynchronous task queue in Go and used a Neo4j graph registry to manage agentic memory states dynamically, reducing latency significantly." 
+    },
+    { "timestamp": "05:15", "type": "audio_activity", "participant_id": "p3", "duration_seconds": 45 },
+    
+    { "timestamp": "06:00", "type": "leave", "participant_id": "p3" },
+    
+    { "timestamp": "06:30", "type": "join", "participant_id": "p4", "display_name": "Aum's iPad" },
+    { "timestamp": "06:35", "type": "webcam_change", "participant_id": "p4", "status": "ON" },
+    { 
+      "timestamp": "07:00", 
+      "type": "transcript_chunk", 
+      "participant_id": "p4", 
+      "text": "Sorry sir about that, my laptop Wi-Fi dropped out completely. Rejoining from my tablet now to continue our technical deep dive." 
+    },
+    { "timestamp": "07:15", "type": "audio_activity", "participant_id": "p4", "duration_seconds": 40 }
+  ]
+}
