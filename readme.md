@@ -15,6 +15,6 @@ This engine ingests continuous streaming telemetry (audio pulses, webcam state, 
 
 ## System Architecture
 
-The pipeline implements a decoupled Event-Driven Streaming Architecture. The processing logic is completely sandboxed from future event context, evaluating state adjustments chronologically exactly like a live WebRTC or Webhook client connection.
+The pipeline implements a decoupled Event-Driven Streaming Architecture. The processing logic is completely sandboxed from future event context, evaluating state adjustments chronologically.
 
 ![System Architecture](./assests/architecture.png)
